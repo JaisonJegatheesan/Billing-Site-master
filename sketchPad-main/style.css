@@ -1,0 +1,27 @@
+.gridRow{
+    display: flex;
+}
+.cell{
+    border: 1px solid black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 600px;
+    border: 1px solid blue;  
+    background-color: #66ACD4;
+    border-radius: 5px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:teal;
+}
+
+button{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgb(170, 0, 96);
+}
